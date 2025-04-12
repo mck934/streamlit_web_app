@@ -2,11 +2,11 @@ import streamlit as st
 from PIL import Image
 import datetime
 
-st.title('サプーアプリ')
-st.caption('これはサプーの動画用のテストアプリです')
+st.title('mckの無職な日常')
+st.caption('これはmckの無職な日々を報告するサイトです')
 st.subheader('自己紹介')
-st.text('Pythonに関する情報をYouTube上で発信しているPython VTuber サプーです\n'
-        'よければチャンネル登録よろしくお願いします!')
+st.text('mckの無職な日常を報告していく予定です\n'
+        '関心があることの情報発信もしていく予定です、よろしくお願いします!')
 
 # 画像
 image = Image.open('2025-04-06_21h52_42.png')
