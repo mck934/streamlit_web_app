@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2,
+    "date": "2025-09-01",
+    "title": "おみくじアプリ",
+    "detail": "内容：ボタンを押すとランダムに「今日の運勢（大吉〜大凶）」を表示する簡単なJavaScriptアプリ。\n\n特徴：\n・結果は色付きで視覚的に分かりやすい\n・押してから 3 秒のカウントダウン後に結果が表示される演出\n・HTML/CSS/JS のみで作成されており、ブラウザ上で直接操作可能\n\n使用技術\nHTML5：ページ構造の作成\nCSS3：デザイン、レイアウト、ホバー効果\nJavaScript（ES6）：ランダム抽選、結果表示、ボタン操作",
+    "url": "https://mck934.github.io/omikuji-app/",
+    "uploaded_file": "record_2.png"
+  },
+  {
+    "id": 8,
+    "date": "2025-09-01",
+    "title": "座席シャッフルアプリ",
+    "detail": "概要\n\nブラウザ上で表示された座席表の名前を ワンクリックでランダムに入れ替える アプリです。\nクラスや会議室の座席、チーム割り当てなどに活用可能です。\n「空き席」を含めた表形式で表示され、簡単にシャッフルできます。\n\n使用技術\nHTML5：表（table）の作成、ボタン設置\nCSS3：デザイン・中央揃え・ハイライト（空席）\nJavaScript（ES6）：座席データのシャッフル、DOM 更新",
+    "url": "https://mck934.github.io/sekigae-app/",
+    "uploaded_file": "uploaded_2025-10-05_01h34_23.png"
+  },
+  {
+    "id": 9,
+    "date": "2025-09-01",
+    "title": "福岡県 天気予報アプリ",
+    "detail": "概要\n\n福岡県内の地域ごとの天気、風、波、降水確率を リアルタイムで取得して表示するウェブアプリです。\n\n・地域ごとにラジオボタンで選択可能\n・日付を「今日」「明日」で切り替えて表示\n・降水確率は午前・午後・夕方〜夜に分けて表示\n\nユーザーは簡単に地域別・日別の天気情報を確認できます。\n\n使用技術\nHTML5：構造（ラジオボタン・テーブル・セクション）\nCSS3：デザイン・レイアウト・レスポンシブ\nJavaScript（ES6）：API取得・DOM操作・表示切替\n気象庁 JSON API：福岡県の天気データを取得",
+    "url": "https://mck934.github.io/tenkiyoho-app/",
+    "uploaded_file": "uploaded_2025-10-05_01h40_35.png"
+  },
+  {
+    "id": 10,
+    "date": "2025-08-07",
+    "title": "バーコードリーダーアプリ",
+    "detail": "概要\n\nRefBarcode は バーコードを読み取り、商品情報の参照や管理を支援するアプリです。\n\nカメラや端末でバーコードをスキャン\n商品名・価格・在庫状況などを表示\n複数商品のデータを一覧で管理\n\nこのアプリにより、個人のせどりや在庫管理、商品調査を効率化できます。\n\n使用技術\nReact Native：クロスプラットフォームでのアプリ開発\nExpo / Camera API：バーコードスキャン機能の実装\nFirebase（Firestore）：商品データの保存・参照\nJavaScript（ES6）：アプリロジック・データ処理",
+    "url": "https://drive.google.com/file/d/1ShSEcqbzUfTPF9l9O1LDBzBel0hK6Lhp/view?usp=drive_link",
+    "uploaded_file": "record_10.png"
+  },
+  {
+    "id": 7,
+    "date": "2025-05-15",
+    "title": "利益計算アプリ",
+    "detail": "概要\n\n利益計算アプリは、仕入れ価格や販売価格、手数料を入力するだけで、商品ごとの利益や利益率を瞬時に計算できるアプリです。\n\n個人のせどりや転売、ネットショップ運営に最適\n複数商品の利益をまとめて計算可能\n損益分岐点や最適販売価格の目安も簡単に把握\n\n使用技術\nReact Native / Expo：クロスプラットフォーム対応アプリ開発\nJavaScript（ES6）：利益計算ロジックの実装\nFirebase（任意）：データ保存・履歴管理\nUIコンポーネント：入力フォーム、ボタン、結果表示など",
+    "url": "https://drive.google.com/file/d/1YxpK1DPlqDiQKU06Yz9z9J2Y7EwFCE4O/view?usp=drive_link",
+    "uploaded_file": "record_7.png"
+  },
+  {
+    "id": 1,
+    "date": "2025-09-01",
+    "title": "じゃんけんゲームアプリ",
+    "detail": "ブラウザ上で遊べる シンプルなじゃんけんゲームです。\nユーザーは「グー」「チョキ」「パー」のボタンをクリックして手を出し、コンピュータと対戦できます。\n勝敗は即座に画面に表示され、選んだ手に応じたイラストも表示されるため、直感的に楽しめます。\n\n使用技術\nHTML5：ページ構造の作成\nCSS3：デザイン、レイアウト、アニメーション効果\nJavaScript（ES6）：ゲームロジック、ボタン操作、画像表示",
+    "url": "https://mck934.github.io/janken-app/",
+    "uploaded_file": "record_1.png"
+  }
+]
