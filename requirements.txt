@@ -7,3 +7,4 @@ streamlit==1.32.0
 pillow>=9.5.0
 qrcode
 sqlalchemy
+psycopg2-binary
