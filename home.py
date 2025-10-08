@@ -14,7 +14,7 @@ DB_PORT = "5432"
 DB_NAME = "portfolio_db"
 
 # SQLAlchemy用の接続文字列
-DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+DATABASE_URL = f"postgresql://portfolio_db_k7xk_user:jMQLr9dC0BJK6713LEC7QPv8QKc4iUC7@dpg-d3j5pke3jp1c73f0hbbg-a.oregon-postgres.render.com/portfolio_db_k7xk"
 
 # エンジン作成
 engine = create_engine(DATABASE_URL, echo=True)
@@ -149,4 +149,5 @@ with st.form(key='profile_form'):
         # ✅ Records ページに移動
         st.switch_page("pages/Records.py")
     #     st.text(f'年齢層：{age_category}')
+
     #     st.text(f'趣味：{", ".join(hobby)}')
