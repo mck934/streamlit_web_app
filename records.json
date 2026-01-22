@@ -27,7 +27,7 @@
     "id": 10,
     "date": "2025-08-07",
     "title": "バーコードリーダーアプリ",
-    "detail": "概要\n\nRefBarcode は バーコードを読み取り、商品情報の参照や管理を支援するアプリです。\n\nカメラや端末でバーコードをスキャン\n商品名・価格・在庫状況などを表示\n複数商品のデータを一覧で管理\n\nこのアプリにより、個人のせどりや在庫管理、商品調査を効率化できます。\n\n使用技術\nReact Native：クロスプラットフォームでのアプリ開発\nExpo / Camera API：バーコードスキャン機能の実装\nFirebase（Firestore）：商品データの保存・参照\nJavaScript（ES6）：アプリロジック・データ処理",
+    "detail": "概要\n\nバーコードを読み取り、商品情報の参照や管理を支援する Android アプリです。\n\n端末のカメラを使用してバーコードをスキャン\n商品名・価格などの情報を画面に表示\n\n使用技術\nKotlin：アプリロジックの実装\nAndroid Studio：Androidアプリ開発環境\nCamera API：バーコード読み取り機能の実装",
     "url": "https://drive.google.com/file/d/1ShSEcqbzUfTPF9l9O1LDBzBel0hK6Lhp/view?usp=drive_link",
     "uploaded_file": "record_10.png"
   },
@@ -35,7 +35,7 @@
     "id": 7,
     "date": "2025-05-15",
     "title": "利益計算アプリ",
-    "detail": "概要\n\n利益計算アプリは、仕入れ価格や販売価格、手数料を入力するだけで、商品ごとの利益や利益率を瞬時に計算できるアプリです。\n\n個人のせどりや転売、ネットショップ運営に最適\n複数商品の利益をまとめて計算可能\n損益分岐点や最適販売価格の目安も簡単に把握\n\n使用技術\nReact Native / Expo：クロスプラットフォーム対応アプリ開発\nJavaScript（ES6）：利益計算ロジックの実装\nFirebase（任意）：データ保存・履歴管理\nUIコンポーネント：入力フォーム、ボタン、結果表示など",
+    "detail": "概要\n\n利益計算アプリは、仕入れ価格や販売価格、手数料を入力するだけで、商品ごとの利益や利益率を瞬時に計算できるAndroidアプリです。\n\nEC運営の利益管理に最適\n複数商品の利益をまとめて計算・比較可能\n損益分岐点や適正な販売価格の目安を簡単に把握可能\n\n使用技術\nKotlin：Androidアプリ開発および利益計算ロジックの実装\nAndroid Studio：開発環境\nUIコンポーネント：\nEditText（価格・手数料入力）\nButton（計算処理）\nTextView（結果表示）",
     "url": "https://drive.google.com/file/d/1YxpK1DPlqDiQKU06Yz9z9J2Y7EwFCE4O/view?usp=drive_link",
     "uploaded_file": "record_7.png"
   },
@@ -48,3 +48,4 @@
     "uploaded_file": "record_1.png"
   }
 ]
+
